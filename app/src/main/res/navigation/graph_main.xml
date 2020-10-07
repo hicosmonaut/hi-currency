@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_main"
+    app:startDestination="@id/nav_fragment_home">
+
+    <fragment
+        android:id="@+id/nav_fragment_home"
+        android:name="hi.cosmonaut.currency.ui.fragment.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_currency"
+            app:destination="@id/nav_fragment_currency">
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_fragment_currency"
+        android:name="hi.cosmonaut.currency.ui.fragment.currency.single.SingleCurrencyFragment"
+        android:label="SingleCurrencyFragment"
+        tools:layout="@layout/fragment_currency">
+
+        <action
+            android:id="@+id/action_currency_to_home"
+            app:destination="@id/nav_fragment_home" />
+
+    </fragment>
+
+</navigation>

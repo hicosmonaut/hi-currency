@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/page_all"
+        android:enabled="true"
+        android:icon="@drawable/ic_money"
+        android:title="@string/label_all"/>
+    <item
+        android:id="@+id/page_my"
+        android:enabled="true"
+        android:icon="@drawable/ic_cart"
+        android:title="@string/label_my"/>
+
+</menu>

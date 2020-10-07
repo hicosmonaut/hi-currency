@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="response_error_default">Response error default</string>
+    <string name="response_error_failed">Response failed</string>
+    <string name="database_error_request_failed">Database request failed</string>
+    <string name="label_all_currencies">All Currencies</string>
+    <string name="label_all">All</string>
+    <string name="label_my">My</string>
+    <string name="template_data_currency">%1$s: %2$s</string>
+</resources>
